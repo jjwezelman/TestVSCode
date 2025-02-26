@@ -31,7 +31,6 @@ max_iter = 256
 
 r1, r2, n3 = mandelbrot_set(xmin, xmax, ymin, ymax, width, height, max_iter)
 
-
 plt.axis("off")
 plt.subplots_adjust(bottom=0.0, top=1.0, left=0.0, right=1.0)
 plt.imshow(n3.T, extent=[xmin, xmax, ymin, ymax], cmap='turbo')
